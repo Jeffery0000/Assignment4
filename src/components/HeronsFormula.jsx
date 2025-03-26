@@ -4,7 +4,9 @@ import './HeronsFormula.css'
 function HeronsFormula() {
     return (
         <>
-        <p>Test</p>
+            <p>Test</p>
         </>
     )
 }
+
+export default HeronsFormula
