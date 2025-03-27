@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <p>dasdasdsadsadsa</p>
+      <p>App</p>
       <HeronsFormula />
     </>
   )
