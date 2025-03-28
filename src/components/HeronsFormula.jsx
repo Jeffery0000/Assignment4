@@ -8,7 +8,7 @@ function HeronsFormula() {
     return (
         <div className="herons-formula">
             <h1>Heron's Formula</h1>
-            <form id="heron-form">
+            <form>
                 <label for="heron-a">Side a:</label>
                 <input type="number" name="heron-a" required min="0" step=".01" />
                 <label for="heron-b">Side b:</label>
