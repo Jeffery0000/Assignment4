@@ -44,7 +44,7 @@ function NewtonsMethod() {
                 <button onClick={handleNewtons}>Calculate</button>
             </form>
         </div>
-    )
+    );
 }
 
 export default NewtonsMethod

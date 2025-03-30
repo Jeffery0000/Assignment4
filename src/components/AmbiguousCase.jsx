@@ -58,7 +58,7 @@ function AmbiguousCase() {
                 <button onClick={handleAmbiguous}>Calculate</button>
             </form>
         </div>
-    )
+    );
 }
 
 export default AmbiguousCase
