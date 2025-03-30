@@ -69,7 +69,7 @@ function PolynomialFunction() {
                 <input type="text" name="polynomial-func" readOnly value={polynomial} onChange={(e) => setPolynomial(e.target.value)} />
                 <label htmlFor="polynomial-evaluation">Polynomial Evaluation (result):</label>
                 <input type="text" name="polynomial-evaluation" readOnly value={result} onChange={(e) => setResult(e.target.value)} />
-                <input type="submit" value="Calculate" onClick={handlePolynomial} />
+                <button onClick={handlePolynomial}>Calculate</button>
             </form>
         </div>
     );

@@ -7,7 +7,7 @@ import PolynomialFunction from './components/PolynomialFunction'
 function App() {
 
   return (
-    <div>
+    <div className="forms-grid">
       <HeronsFormula />
       <AmbiguousCase />
       <NewtonsMethod />
