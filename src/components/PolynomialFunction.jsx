@@ -13,7 +13,7 @@ function PolynomialFunction() {
         for (let i = 0; i < coefficients.length; i++) {
             answer += coefficients[i] * Math.pow(x, exponents[i]);
         }
-        return answer;
+        return Math.round(answer * 100) / 100;
     }
 
     const polynomialFunction = (coefficients, exponents) => {
