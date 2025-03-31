@@ -21,7 +21,6 @@ function NewtonsMethod() {
             x1 = x1 - (f(x1) / fPrime(x1));
             i++;
         }
-
         return Math.round(x1 * 100) / 100;
     }
 
@@ -31,7 +30,6 @@ function NewtonsMethod() {
         const resultValue = newtonsMethod(guessValue);
         setResult(resultValue);
     }
-
 
     return (
         <div className="newtons-method">
